@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "ComfyUI_API"
+version = "0.1.0"
+description = ""
+authors = ["Mahdi Ghaderi <ghaderi.mmahdi@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10.6"
+
+asgiref = "^3.9.1"
+boto3 = "^1.39.16"
+botocore = "^1.39.16"
+certifi = "^2025.7.14"
+cffi = "^1.17.1"
+charset-normalizer = "^3.4.2"
+Django = "^5.2.4"
+dotenv = "^0.9.9"
+gevent = "^25.5.1"
+greenlet = "^3.2.3"
+idna = "^3.10"
+image = "^1.5.33"
+jmespath = "^1.0.1"
+Pillow = "^11.3.0"
+pycparser = "^2.22"
+python-dateutil = "^2.9.0.post0"
+python-dotenv = "^1.1.1"
+requests = "^2.32.4"
+s3transfer = "^0.13.1"
+six = "^1.17.0"
+sqlparse = "^0.5.3"
+typing_extensions = "^4.14.1"
+tzdata = "^2025.2"
+urllib3 = "^2.5.0"
+websocket = "^0.2.1"
+websocket-client = "^1.8.0"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

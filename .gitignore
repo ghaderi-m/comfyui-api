@@ -1,0 +1,37 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Poetry files
+poetry.lock
+
+# dotenv files
+.env
+.env.*
+
+# VSCode / PyCharm IDE settings
+.vscode/
+.idea/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Image outputs
+saved_images/
+*.png
+*.jpg
+*.jpeg
+
+# S3 credentials
+gcp-credentials.json
